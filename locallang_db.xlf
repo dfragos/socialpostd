@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2011-11-19T23:17:33Z" product-name="socialpostd">
+		<header/>
+		<body>
+			<trans-unit id="pi_title">
+				<source>SocialPostD</source>
+			</trans-unit>
+			<trans-unit id="pi_plus_wiz_description">
+				<source>Posting System to Social Network for TYPO3</source>
+			</trans-unit>
+			<trans-unit id="tt_news.tx_socialpostd_fb_publish">
+				<source>Already published on Facebook</source>
+			</trans-unit>
+			<trans-unit id="tt_news.tx_socialpostd_fb_ignor_publish">
+				<source>Do not publish on Facebook</source>
+			</trans-unit>
+			<trans-unit id="tt_news.tx_socialpostd_tw_publish">
+				<source>Already published on Twitter</source>
+			</trans-unit>
+			<trans-unit id="tt_news.tx_socialpostd_tw_ignor_publish">
+				<source>Do not publish on Twitter</source>
+			</trans-unit>
+			<trans-unit id="scheduler.tx_socialpostd_title">
+				<source>Publish news on Twitter and Facebook</source>
+			</trans-unit>
+			<trans-unit id="scheduler.tx_socialpostd_description">
+				<source>Publish news records on Twitter and Facebook</source>
+			</trans-unit>
+			<trans-unit id="extConf.webUrl">
+				<source>Application site url: The website url that you set in your application http://www.example.com/</source>
+			</trans-unit>
+			<trans-unit id="extConf.fbenabled">
+				<source>Enable Facebook Posting.</source>
+			</trans-unit>
+			<trans-unit id="extConf.fbappId">
+				<source>Facebook Application ID: The ID of your Facebook application</source>
+			</trans-unit>
+			<trans-unit id="extConf.fbsecret">
+				<source>Facebook secret: The application secret of your Facebook application</source>
+			</trans-unit>
+			<trans-unit id="extConf.fbpageId">
+				<source>Fan page ID: The ID of the page that you want this application to post to</source>
+			</trans-unit>
+			<trans-unit id="extConf.fbgroupId">
+				<source>Group page ID: The ID of the group that you want this application to post to</source>
+			</trans-unit>
+			<trans-unit id="extConf.fbauthCode">
+				<source>Facebook authorize code</source>
+			</trans-unit>
+			<trans-unit id="extConf.twenabled">
+				<source>Enable Twitter Posting.</source>
+			</trans-unit>
+			<trans-unit id="extConf.twitterconsumerkey">
+				<source>Twitter Consumer Key</source>
+			</trans-unit>
+			<trans-unit id="extConf.twconsumersecret">
+				<source>Twitter Consumer Secret</source>
+			</trans-unit>
+			<trans-unit id="extConf.twaccesstoken">
+				<source>Twitter Access Token</source>
+			</trans-unit>
+			<trans-unit id="extConf.twaccesstokensecret">
+				<source>Twitter Access Token Secret</source>
+			</trans-unit>
+			<trans-unit id="extConf.twUser">
+				<source>Twitter Account User</source>
+			</trans-unit>
+			<trans-unit id="extConf.twpostField">
+				<source>Field to Post on Twitter</source>
+			</trans-unit>
+			<trans-unit id="extConf.twPass">
+				<source>Twitter Account Password</source>
+			</trans-unit>
+			<trans-unit id="extConf.twlinkBack">
+				<source>Insert link back to singleView page on site on Twitter.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

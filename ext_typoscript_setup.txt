@@ -1,0 +1,37 @@
+plugin.tx_socialpostd {
+	config {
+		tt_news {
+			newsstorage = {$plugin.tt_news.pid_list}
+			newssingleview = {$plugin.tt_news.singlePid}
+			catimage = 0
+			
+			twitter {
+				linkback = 1
+				postfield = title
+			}
+			
+			link = TEXT
+			link {
+				dataWrap = {field:_url}|
+				typolink {
+					returnLast = url
+					no_cache = {$plugin.tt_news.allowCaching}
+					parameter = {$plugin.tt_news.singlePid}
+					additionalParams {
+						field = uid
+						wrap = &tx_ttnews[tt_news]=|
+					}
+					useCacheHash = {$plugin.tt_news.allowCaching}
+				}
+			}
+
+			description = TEXT
+			description {
+				field = bodytext
+				crop = 300 | ... | 1
+				stripHtml = 1
+				parseFunc < lib.parseFunc_RTE
+			}
+		}
+	}
+}

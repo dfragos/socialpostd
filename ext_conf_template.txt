@@ -1,0 +1,35 @@
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.webUrl
+plugin.tx_socialpostd.webUrl = http://www.example.com/
+
+# cat=socialpost; type=int; size=4; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.fbenabled
+plugin.tx_socialpostd.config.fbenabled = 0
+
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.fbappId
+plugin.tx_socialpostd.facebook.appId =
+	
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.fbsecret
+plugin.tx_socialpostd.facebook.secret =
+
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.fbpageId
+plugin.tx_socialpostd.facebook.pageId =
+
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.fbgroupId
+plugin.tx_socialpostd.facebook.groupId =
+
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.fbauthCode
+plugin.tx_socialpostd.facebook.authCode =
+
+# cat=socialpost; type=int; size=4; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.twenabled
+plugin.tx_socialpostd.config.twenabled = 0
+
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.twitterconsumerkey
+plugin.tx_socialpostd.twitter.consumerkey =
+	
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.twconsumersecret
+plugin.tx_socialpostd.twitter.consumersecret =
+
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.twaccesstoken
+plugin.tx_socialpostd.twitter.accesstoken =
+
+# cat=socialpost; type=string; label=LLL:EXT:socialpostd/locallang_db.xlf:extConf.twaccesstokensecret
+plugin.tx_socialpostd.twitter.accesstokensecret =

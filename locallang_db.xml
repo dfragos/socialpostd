@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Language labels for database tables/fields belonging to extension 'socialpost'</description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:socialpostd/locallang_db.xml</fileId>
+		<labelContext type="array">
+			<label index="pi_title"></label>
+			<label index="pi_plus_wiz_description"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi_title">SocialPost</label>
+			<label index="pi_plus_wiz_description">posting System to Social Network for TYPO3</label>
+			<label index="tt_news.tx_socialpostd_fb_publish">Already published on Facebook</label>
+			<label index="tt_news.tx_socialpostd_fb_ignor_publish">Do not publish on Facebook</label>
+			<label index="tt_news.tx_socialpostd_tw_publish">Already published on Twitter</label>
+			<label index="tt_news.tx_socialpostd_tw_ignor_publish">Do not publish on Twitter</label>
+			<label index="scheduler.tx_socialpostd_title">Publish news on Twitter and Facebook</label>
+			<label index="scheduler.tx_socialpostd_description">Publish news records on Twitter and Facebook</label>
+			<label index="extConf.webUrl">Application site url: The website url that you set in your application http://www.example.com/</label>
+			<label index="extConf.logFilePath">Log File Path: This is the path to the log file where messages will be saved when the event occurs.</label>
+			<label index="extConf.fbenabled">Enable Facebook Posting.</label>
+			<label index="extConf.fbappId">Facebook Application ID: The ID of your Facebook application</label>
+			<label index="extConf.fbsecret">Facebook secret: The application secret of your Facebook application</label>
+			<label index="extConf.fbpageId">Fan page ID: The ID of the page that you want this application to post to</label>
+			<label index="extConf.fbgroupId">Group page ID: The ID of the group that you want this application to post to</label>
+			<label index="extConf.fbauthCode">Facebook authorize code</label>
+			<label index="extConf.twenabled">Enable Twitter Posting.</label>
+			<label index="extConf.twitterconsumerkey">Twitter Consumer Key</label>
+			<label index="extConf.twconsumersecret">Twitter Consumer Secret</label>
+			<label index="extConf.twaccesstoken">Twitter Access Token</label>
+			<label index="extConf.twaccesstokensecret">Twitter Access Token Secret</label>
+			<label index="extConf.twUser">Twitter Account User</label>
+			<label index="extConf.twpostField">Field to Post on Twitter</label>
+			<label index="extConf.twPass">Twitter Account Password</label>
+			<label index="extConf.twlinkBack">Insert link back to singleView page on site on Twitter.</label>
+		</languageKey>
+	</data>
+</T3locallang>
