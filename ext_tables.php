@@ -2,8 +2,6 @@
     
 if (!defined ('TYPO3_MODE')) die ('Access denied.');
 
-t3lib_extMgm::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:socialpostd/res/typoscript/tsconfig.txt">');
-
 $tempColumns = array (
     'tx_socialpostd_fb_publish' => array (        
         'exclude' => 0,        
